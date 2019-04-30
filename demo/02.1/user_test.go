@@ -14,8 +14,8 @@ type UserData struct {
 type MockUser struct {
 	userMap map[int] *UserData
 } 
-   
-var once sync.Once
+
+var once sync.Once 
 var mock *MockUser
 
 func InitTest()  {
